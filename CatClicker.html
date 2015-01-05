@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script>
+<!--My Name is CatClicker-->
+<!--My Name is CatClicker-->
+<!--My Name is CatClicker-->
+$(function(){
+  var catname1= "phone1", catname2= "phone2"; 
+  
+  $("img").on("click", evt=>{
+   event.preventDefault(); 
+    var clicks= $("b").first().text(); 
+	console.log(clicks); 
+	 clicks= parseInt(clicks)+1; 
+	 $("b").first().text(clicks); 
+  }); 
+}); 
+</script>
+</head>
+<body>
+<img id="img1" src="C:\Users\edutilos\Documents\www\website\pictures\Jobs\technology2.png" width="300" height="300"/><br/>
+<img id="img2" src="C:\Users\edutilos\Documents\www\website\pictures\Jobs\technology2.png" width="300" height="300"/><br/>
+<pre>Click Counts: <b>0</b>
+
+</body>
+</html>

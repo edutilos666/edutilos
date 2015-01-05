@@ -1,0 +1,6 @@
+#ignore certain files 
+*.java
+*.txt 
+*.xml 
+bin/
+gen/
